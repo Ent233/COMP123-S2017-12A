@@ -4,6 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*Name:LF
+ * Date:August 3, 2017
+ * Description: A calculator app with windows form
+ * Version: 0.1
+*/
 namespace COMP123_S2017_12A
 {
     static class Program
@@ -16,7 +21,7 @@ namespace COMP123_S2017_12A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Calculator());
         }
     }
 }

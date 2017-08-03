@@ -1,6 +1,6 @@
 ﻿namespace COMP123_S2017_12A
 {
-    partial class Form1
+    partial class Calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Calculator
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(304, 361);
+            this.MaximizeBox = false;
+            this.Name = "Calculator";
+            this.Text = "Calculator";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

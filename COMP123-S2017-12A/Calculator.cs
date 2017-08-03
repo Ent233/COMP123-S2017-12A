@@ -8,11 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*Name:LF
+ * Date:August 3, 2017
+ * Description: A calculator app with windows form
+ * Version: 0.1
+*/
 namespace COMP123_S2017_12A
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
         }
