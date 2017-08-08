@@ -7,7 +7,7 @@ using System.Windows.Forms;
 /*Name:LF
  * Date:August 3, 2017
  * Description: A calculator app with windows form
- * Version: 0.1
+ * Version: 0.2 change class to start slash form.
 */
 namespace COMP123_S2017_12A
 {
@@ -21,7 +21,7 @@ namespace COMP123_S2017_12A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calculator());
+            Application.Run(new SplashForm());
         }
     }
 }

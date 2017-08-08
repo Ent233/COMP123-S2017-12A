@@ -21,7 +21,7 @@ namespace COMP123_S2017_12A
         {
             InitializeComponent();
         }
-
+        private void Calculator_FormClosing()
         private void Calculator_Load(object sender, EventArgs e)
         {
 
